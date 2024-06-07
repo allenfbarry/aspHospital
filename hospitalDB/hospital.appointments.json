@@ -1,0 +1,342 @@
+[{
+  "_id": {
+    "$oid": "6629b02de06f527ccb021cdd"
+  },
+  "user": {
+    "$oid": "6629afe57df3890ac63b7940"
+  },
+  "details": {
+    "doctorName": "doctor 3",
+    "appointmentDate": "4/24/2024",
+    "appointmentTime": "9:00AM-10:00AM"
+  },
+  "doctor": {
+    "$oid": "6629afe57df3890ac63b7952"
+  },
+  "slot_id": "6629afe57df3890ac63b7953",
+  "date": {
+    "$date": "2024-04-25T01:21:17.679Z"
+  },
+  "Price": 85,
+  "taxPrice": 15,
+  "totalPrice": 100,
+  "isPaid": true,
+  "Status": "Completed",
+  "createdAt": {
+    "$date": "2024-04-25T01:21:49.632Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-01T00:34:04.067Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2024-04-25T01:22:32.982Z"
+  },
+  "paymentID": {
+    "$oid": "6629b058e06f527ccb021cee"
+  }
+},
+{
+  "_id": {
+    "$oid": "66318beb58ed216b29dddc54"
+  },
+  "user": {
+    "$oid": "66318be258ed216b29dddc30"
+  },
+  "details": {
+    "doctorName": "doctor 3",
+    "appointmentDate": "4/30/2024",
+    "appointmentTime": "9:00AM-10:00AM"
+  },
+  "doctor": {
+    "$oid": "6629afe57df3890ac63b7952"
+  },
+  "slot_id": "66318b9b58ed216b29dddb91",
+  "date": {
+    "$date": "2024-05-01T00:25:06.857Z"
+  },
+  "Price": 100,
+  "taxPrice": 15,
+  "totalPrice": 115,
+  "isPaid": true,
+  "Status": "Completed",
+  "createdAt": {
+    "$date": "2024-05-01T00:25:15.630Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-01T00:34:25.679Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2024-05-01T00:25:50.999Z"
+  },
+  "paymentID": {
+    "$oid": "66318c0e58ed216b29dddc64"
+  }
+},
+{
+  "_id": {
+    "$oid": "66318cc8e92f01262258c782"
+  },
+  "user": {
+    "$oid": "66318be258ed216b29dddc30"
+  },
+  "details": {
+    "doctorName": "doctor 6",
+    "appointmentDate": "4/30/2024",
+    "appointmentTime": "9:00AM-10:00AM"
+  },
+  "doctor": {
+    "$oid": "6629afe57df3890ac63b7961"
+  },
+  "slot_id": "66318bac58ed216b29dddbe6",
+  "date": {
+    "$date": "2024-05-01T00:28:45.103Z"
+  },
+  "Price": 85,
+  "taxPrice": 15,
+  "totalPrice": 100,
+  "isPaid": true,
+  "Status": "Completed",
+  "createdAt": {
+    "$date": "2024-05-01T00:28:56.804Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-01T00:33:21.901Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2024-05-01T00:29:12.118Z"
+  },
+  "paymentID": {
+    "$oid": "66318cd8e92f01262258c793"
+  }
+},
+{
+  "_id": {
+    "$oid": "66319b68d2ea8fb6f930ba94"
+  },
+  "user": {
+    "$oid": "66318be258ed216b29dddc30"
+  },
+  "details": {
+    "doctorName": "doctor 6",
+    "appointmentDate": "5/1/2024",
+    "appointmentTime": "9:00AM-10:00AM"
+  },
+  "doctor": {
+    "$oid": "6629afe57df3890ac63b7961"
+  },
+  "slot_id": "66318bac58ed216b29dddbe6",
+  "date": {
+    "$date": "2024-05-01T05:00:00.000Z"
+  },
+  "Price": 85,
+  "taxPrice": 15,
+  "totalPrice": 100,
+  "isPaid": true,
+  "Status": "Completed",
+  "createdAt": {
+    "$date": "2024-05-01T01:31:20.774Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-01T01:36:26.054Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2024-05-01T01:31:43.666Z"
+  },
+  "paymentID": {
+    "$oid": "66319b7fd2ea8fb6f930baae"
+  }
+},
+{
+  "_id": {
+    "$oid": "66319cc2d2ea8fb6f930bc0a"
+  },
+  "user": {
+    "$oid": "66318be258ed216b29dddc30"
+  },
+  "details": {
+    "doctorName": "doctor 6",
+    "appointmentDate": "4/30/2024",
+    "appointmentTime": "10:00AM-11:00AM"
+  },
+  "doctor": {
+    "$oid": "6629afe57df3890ac63b7961"
+  },
+  "slot_id": "66318bac58ed216b29dddbe7",
+  "date": {
+    "$date": "2024-05-01T01:36:58.848Z"
+  },
+  "Price": 100,
+  "taxPrice": 15,
+  "totalPrice": 115,
+  "isPaid": true,
+  "Status": "Canceled",
+  "createdAt": {
+    "$date": "2024-05-01T01:37:06.862Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-01T01:38:03.491Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2024-05-01T01:37:20.081Z"
+  },
+  "paymentID": {
+    "$oid": "66319cd0d2ea8fb6f930bc2a"
+  }
+},
+{
+  "_id": {
+    "$oid": "66319f3ed2ea8fb6f930be51"
+  },
+  "user": {
+    "$oid": "66318be258ed216b29dddc30"
+  },
+  "details": {
+    "doctorName": "Bruce Wayne",
+    "appointmentDate": "5/1/2024",
+    "appointmentTime": "9:00AM-10:00AM"
+  },
+  "doctor": {
+    "$oid": "6629afe57df3890ac63b7961"
+  },
+  "slot_id": "66319ebed2ea8fb6f930bdde",
+  "date": {
+    "$date": "2024-05-01T05:00:00.000Z"
+  },
+  "Price": 100,
+  "taxPrice": 15,
+  "totalPrice": 115,
+  "isPaid": true,
+  "Status": "Canceled",
+  "createdAt": {
+    "$date": "2024-05-01T01:47:42.921Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-03T03:13:29.902Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2024-05-01T01:48:04.765Z"
+  },
+  "paymentID": {
+    "$oid": "66319f54d2ea8fb6f930be74"
+  }
+},
+{
+  "_id": {
+    "$oid": "66339d8ae1dfcb88b4d2436c"
+  },
+  "user": {
+    "$oid": "66318be258ed216b29dddc30"
+  },
+  "details": {
+    "doctorName": "Kim Wexler",
+    "appointmentDate": "5/2/2024",
+    "appointmentTime": "9:00AM-10:00AM"
+  },
+  "doctor": {
+    "$oid": "6629afe57df3890ac63b7952"
+  },
+  "slot_id": "66319e95d2ea8fb6f930bd36",
+  "date": {
+    "$date": "2024-05-02T14:04:45.902Z"
+  },
+  "Price": 100,
+  "taxPrice": 15,
+  "totalPrice": 115,
+  "isPaid": true,
+  "Status": "Paid",
+  "createdAt": {
+    "$date": "2024-05-02T14:04:58.166Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T14:05:21.541Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2024-05-02T14:05:21.413Z"
+  },
+  "paymentID": {
+    "$oid": "66339da1e1dfcb88b4d24392"
+  }
+},
+{
+  "_id": {
+    "$oid": "6633ade5196d67fd7ad84cd5"
+  },
+  "user": {
+    "$oid": "66318be258ed216b29dddc30"
+  },
+  "details": {
+    "doctorName": "Bruce Wayne",
+    "appointmentDate": "5/3/2024",
+    "appointmentTime": "9:00AM-10:00AM"
+  },
+  "doctor": {
+    "$oid": "6629afe57df3890ac63b7961"
+  },
+  "slot_id": "66319ebed2ea8fb6f930bdde",
+  "date": {
+    "$date": "2024-05-03T05:00:00.000Z"
+  },
+  "Price": 100,
+  "taxPrice": 15,
+  "totalPrice": 115,
+  "isPaid": true,
+  "Status": "Completed",
+  "createdAt": {
+    "$date": "2024-05-02T15:14:45.926Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-03T03:13:49.737Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2024-05-02T15:15:03.467Z"
+  },
+  "paymentID": {
+    "$oid": "6633adf7196d67fd7ad84cfe"
+  }
+},
+{
+  "_id": {
+    "$oid": "66344c9e2310cd2fc8ba9368"
+  },
+  "user": {
+    "$oid": "66318be258ed216b29dddc30"
+  },
+  "details": {
+    "doctorName": "Bruce Wayne",
+    "appointmentDate": "5/4/2024",
+    "appointmentTime": "9:00AM-10:00AM"
+  },
+  "doctor": {
+    "$oid": "6629afe57df3890ac63b7961"
+  },
+  "slot_id": "66319ebed2ea8fb6f930bdde",
+  "date": {
+    "$date": "2024-05-04T05:00:00.000Z"
+  },
+  "Price": 100,
+  "taxPrice": 15,
+  "totalPrice": 115,
+  "isPaid": true,
+  "Status": "Paid",
+  "createdAt": {
+    "$date": "2024-05-03T02:31:58.654Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-03T02:33:26.358Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2024-05-03T02:33:26.275Z"
+  },
+  "paymentID": {
+    "$oid": "66344cf62310cd2fc8ba93ae"
+  }
+}]

@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "6629afe57df3890ac63b7943"
+  },
+  "name": "Cardiologist",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6629afe57df3890ac63b7944"
+  },
+  "name": "Dermatologist",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6629afe57df3890ac63b7945"
+  },
+  "name": "Neurologist",
+  "__v": 0
+}]

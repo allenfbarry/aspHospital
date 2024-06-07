@@ -1,0 +1,339 @@
+[{
+  "_id": {
+    "$oid": "6629afe57df3890ac63b7947"
+  },
+  "firstName": "admin",
+  "lastName": "user",
+  "specialization": {
+    "$oid": "6629afe57df3890ac63b7943"
+  },
+  "phone": "1234567890",
+  "email": "admin@gmail.com",
+  "password": "$2a$10$FswM.INstv5N5Wz3E.6O/e5Juloi2y74/MC0jlzHrkRIpr6STMYzC",
+  "role": "admin",
+  "schedule": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-04-25T01:20:37.355Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-25T01:20:37.355Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6629afe57df3890ac63b7948"
+  },
+  "firstName": "Saul",
+  "lastName": "Goodman",
+  "specialization": {
+    "$oid": "6629afe57df3890ac63b7943"
+  },
+  "phone": "1234567890",
+  "email": "doctor1@gmail.com",
+  "password": "$2a$10$CBIP018y.BI4omw0xGT5VeiMkynUgvuoYCPomNdU8t0Rs154mAvAi",
+  "schedule": [
+    {
+      "slot": "9:00AM-10:00AM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319e72d2ea8fb6f930bce2"
+      }
+    },
+    {
+      "slot": "10:00AM-11:00AM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319e72d2ea8fb6f930bce3"
+      }
+    },
+    {
+      "slot": "11:00AM-12:00PM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319e72d2ea8fb6f930bce4"
+      }
+    },
+    {
+      "slot": "12:00PM-1:00PM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319e72d2ea8fb6f930bce5"
+      }
+    }
+  ],
+  "role": "doctor",
+  "__v": 1,
+  "createdAt": {
+    "$date": "2024-04-25T01:20:37.355Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-01T01:44:18.348Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6629afe57df3890ac63b794d"
+  },
+  "firstName": "Chuck",
+  "lastName": "McGill",
+  "specialization": {
+    "$oid": "6629afe57df3890ac63b7944"
+  },
+  "phone": "1234567890",
+  "email": "doctor2@gmail.com",
+  "password": "$2a$10$QQIlNaaQpRwXqWn4S2S06ux10deLotQnSjgbsQpw.nODCS6HskIoa",
+  "schedule": [
+    {
+      "slot": "9:00AM-10:00AM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319e86d2ea8fb6f930bd0c"
+      }
+    },
+    {
+      "slot": "10:00AM-11:00AM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319e86d2ea8fb6f930bd0d"
+      }
+    },
+    {
+      "slot": "11:00AM-12:00PM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319e86d2ea8fb6f930bd0e"
+      }
+    },
+    {
+      "slot": "12:00PM-1:00PM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319e86d2ea8fb6f930bd0f"
+      }
+    }
+  ],
+  "role": "doctor",
+  "__v": 2,
+  "createdAt": {
+    "$date": "2024-04-25T01:20:37.356Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-01T01:44:38.348Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6629afe57df3890ac63b7952"
+  },
+  "firstName": "Kim",
+  "lastName": "Wexler",
+  "specialization": {
+    "$oid": "6629afe57df3890ac63b7945"
+  },
+  "phone": "1234567890",
+  "email": "doctor3@gmail.com",
+  "password": "$2a$10$ZvRn8IbI37NSINiqeqslp.1KTPDS.g7rrcFe4HlS/2d2tWYaUkkPa",
+  "schedule": [
+    {
+      "slot": "9:00AM-10:00AM",
+      "unavailableDates": [
+        {
+          "$date": "2024-05-02T14:04:45.902Z"
+        }
+      ],
+      "_id": {
+        "$oid": "66319e95d2ea8fb6f930bd36"
+      }
+    },
+    {
+      "slot": "10:00AM-11:00AM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319e95d2ea8fb6f930bd37"
+      }
+    },
+    {
+      "slot": "11:00AM-12:00PM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319e95d2ea8fb6f930bd38"
+      }
+    },
+    {
+      "slot": "12:00PM-1:00PM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319e95d2ea8fb6f930bd39"
+      }
+    }
+  ],
+  "role": "doctor",
+  "__v": 2,
+  "createdAt": {
+    "$date": "2024-04-25T01:20:37.356Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T14:05:21.390Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6629afe57df3890ac63b7957"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "specialization": {
+    "$oid": "6629afe57df3890ac63b7943"
+  },
+  "phone": "1234567890",
+  "email": "doctor4@gmail.com",
+  "password": "$2a$10$C.L6uoCiIw0CV.1whqdDIuyEVbAbvgLYrTR51Yd6XkthV6n.3RAbe",
+  "schedule": [
+    {
+      "slot": "9:00AM-10:00AM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319eb3d2ea8fb6f930bdb4"
+      }
+    },
+    {
+      "slot": "10:00AM-11:00AM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319eb3d2ea8fb6f930bdb5"
+      }
+    },
+    {
+      "slot": "11:00AM-12:00PM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319eb3d2ea8fb6f930bdb6"
+      }
+    },
+    {
+      "slot": "12:00PM-1:00PM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319eb3d2ea8fb6f930bdb7"
+      }
+    }
+  ],
+  "role": "doctor",
+  "__v": 2,
+  "createdAt": {
+    "$date": "2024-04-25T01:20:37.356Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-01T01:45:23.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6629afe57df3890ac63b795c"
+  },
+  "firstName": "Jane ",
+  "lastName": "Doe",
+  "specialization": {
+    "$oid": "6629afe57df3890ac63b7944"
+  },
+  "phone": "1234567890",
+  "email": "doctor5@gmail.com",
+  "password": "$2a$10$T5SNAfan.qirLgn1.j/t6.lTZ1PKcs0i5.UzK4JjpBk1RWwYj5uXG",
+  "schedule": [
+    {
+      "slot": "9:00AM-10:00AM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319ea8d2ea8fb6f930bd8a"
+      }
+    },
+    {
+      "slot": "10:00AM-11:00AM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319ea8d2ea8fb6f930bd8b"
+      }
+    },
+    {
+      "slot": "11:00AM-12:00PM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319ea8d2ea8fb6f930bd8c"
+      }
+    },
+    {
+      "slot": "12:00PM-1:00PM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319ea8d2ea8fb6f930bd8d"
+      }
+    }
+  ],
+  "role": "doctor",
+  "__v": 2,
+  "createdAt": {
+    "$date": "2024-04-25T01:20:37.357Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-01T01:45:12.410Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6629afe57df3890ac63b7961"
+  },
+  "firstName": "Bruce",
+  "lastName": "Wayne",
+  "specialization": {
+    "$oid": "6629afe57df3890ac63b7945"
+  },
+  "phone": "1234567890",
+  "email": "doctor6@gmail.com",
+  "password": "$2a$10$ZTiPfRP3zpShMPpbM4Srsu0SXkvUyX0mfJMcn3AYUh5oTweCre0Z.",
+  "schedule": [
+    {
+      "slot": "9:00AM-10:00AM",
+      "unavailableDates": [
+        {
+          "$date": "2024-05-03T05:00:00.000Z"
+        },
+        {
+          "$date": "2024-05-04T05:00:00.000Z"
+        }
+      ],
+      "_id": {
+        "$oid": "66319ebed2ea8fb6f930bdde"
+      }
+    },
+    {
+      "slot": "10:00AM-11:00AM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319ebed2ea8fb6f930bddf"
+      }
+    },
+    {
+      "slot": "11:00AM-12:00PM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319ebed2ea8fb6f930bde0"
+      }
+    },
+    {
+      "slot": "12:00PM-1:00PM",
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "66319ebed2ea8fb6f930bde1"
+      }
+    }
+  ],
+  "role": "doctor",
+  "__v": 2,
+  "createdAt": {
+    "$date": "2024-04-25T01:20:37.357Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-03T03:13:29.890Z"
+  }
+}]

@@ -1,0 +1,195 @@
+[{
+  "_id": {
+    "$oid": "6629afe57df3890ac63b7940"
+  },
+  "firstName": "user",
+  "lastName": "1",
+  "email": "user@gmail.com",
+  "phone": "1234567890",
+  "password": "$2a$10$dFVL2XMVFurva2JPyOkdO.bZq8xgIplUVGbuhogtuSIQT3zzsBPAO",
+  "role": "user",
+  "feedBack": [],
+  "appointments": [
+    {
+      "slot": "9:00AM-10:00AM",
+      "date": {
+        "$date": "2024-04-25T01:21:17.679Z"
+      },
+      "_id": {
+        "$oid": "6629b058e06f527ccb021cf1"
+      }
+    }
+  ],
+  "__v": 1,
+  "createdAt": {
+    "$date": "2024-04-25T01:20:37.318Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-25T01:22:32.988Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6629afe57df3890ac63b7941"
+  },
+  "firstName": "user",
+  "lastName": "2",
+  "email": "user2@gmail.com",
+  "phone": "1234567890",
+  "password": "$2a$10$T.AtRwGZOCPK4wjvPVYxd.QnCh9jQehrNBqsBRReTEiQRRqw5V5CK",
+  "role": "user",
+  "feedBack": [],
+  "appointments": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-04-25T01:20:37.319Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-25T01:20:37.319Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66318be258ed216b29dddc30"
+  },
+  "firstName": "Sri Sahith",
+  "lastName": "Lakkaraju",
+  "email": "srisahith002@gmail.com",
+  "phone": "12345678922",
+  "password": "$2a$10$hDme2UkWrI6qKR8SBfUMj.4zd08MKIPhoCM52NlAoXICRZouMm8sa",
+  "role": "user",
+  "feedBack": [
+    {
+      "doctor": {
+        "$oid": "6629afe57df3890ac63b7961"
+      },
+      "date": {
+        "$date": "2024-05-01T00:33:16.175Z"
+      },
+      "name": "doctor 6",
+      "feedBack": "Take the given medication!",
+      "_id": {
+        "$oid": "66318dcce92f01262258c853"
+      },
+      "createdAt": {
+        "$date": "2024-05-01T00:33:16.179Z"
+      },
+      "updatedAt": {
+        "$date": "2024-05-01T00:33:16.179Z"
+      }
+    },
+    {
+      "doctor": {
+        "$oid": "6629afe57df3890ac63b7952"
+      },
+      "date": {
+        "$date": "2024-05-01T00:34:21.065Z"
+      },
+      "name": "doctor 3",
+      "feedBack": "Come back in two weeks",
+      "_id": {
+        "$oid": "66318e0de92f01262258c8a2"
+      },
+      "createdAt": {
+        "$date": "2024-05-01T00:34:21.069Z"
+      },
+      "updatedAt": {
+        "$date": "2024-05-01T00:34:21.069Z"
+      }
+    },
+    {
+      "doctor": {
+        "$oid": "6629afe57df3890ac63b7961"
+      },
+      "date": {
+        "$date": "2024-05-01T01:36:17.577Z"
+      },
+      "name": "doctor 6",
+      "feedBack": "visit again",
+      "_id": {
+        "$oid": "66319c91d2ea8fb6f930bba2"
+      },
+      "createdAt": {
+        "$date": "2024-05-01T01:36:17.581Z"
+      },
+      "updatedAt": {
+        "$date": "2024-05-01T01:36:17.581Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-05-01T00:25:06.679Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-03T02:33:26.283Z"
+  },
+  "__v": 10,
+  "appointments": [
+    {
+      "slot": "9:00AM-10:00AM",
+      "date": {
+        "$date": "2024-05-01T00:28:45.103Z"
+      },
+      "_id": {
+        "$oid": "66318cd8e92f01262258c796"
+      }
+    },
+    {
+      "slot": "9:00AM-10:00AM",
+      "date": {
+        "$date": "2024-05-01T05:00:00.000Z"
+      },
+      "_id": {
+        "$oid": "66319b7fd2ea8fb6f930bab1"
+      }
+    },
+    {
+      "slot": "10:00AM-11:00AM",
+      "date": {
+        "$date": "2024-05-01T01:36:58.848Z"
+      },
+      "_id": {
+        "$oid": "66319cd0d2ea8fb6f930bc2d"
+      }
+    },
+    {
+      "slot": "9:00AM-10:00AM",
+      "date": {
+        "$date": "2024-05-01T05:00:00.000Z"
+      },
+      "_id": {
+        "$oid": "66319f54d2ea8fb6f930be77"
+      }
+    },
+    {
+      "slot": "9:00AM-10:00AM",
+      "date": {
+        "$date": "2024-05-02T14:04:45.902Z"
+      },
+      "atype": "Neurologist",
+      "_id": {
+        "$oid": "66339da1e1dfcb88b4d24396"
+      }
+    },
+    {
+      "slot": "9:00AM-10:00AM",
+      "date": {
+        "$date": "2024-05-03T05:00:00.000Z"
+      },
+      "atype": "Neurologist",
+      "_id": {
+        "$oid": "6633adf7196d67fd7ad84d02"
+      }
+    },
+    {
+      "slot": "9:00AM-10:00AM",
+      "date": {
+        "$date": "2024-05-04T05:00:00.000Z"
+      },
+      "atype": "Neurologist",
+      "_id": {
+        "$oid": "66344cf62310cd2fc8ba93b2"
+      }
+    }
+  ]
+}]
