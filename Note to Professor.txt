@@ -1,2 +1,0 @@
-Professor, 
-Since the Mongo DB cannot be exported I have created a folder with the exported json files from the database and kept them in this hospitalDB folder I created. 
